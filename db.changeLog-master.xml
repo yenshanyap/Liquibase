@@ -31,4 +31,17 @@ http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
 		</insert>
 		<rollback/>
 </changeSet>
+ <changeSet id="004" author="yenshan2">
+		<insert tableName="liquibaseTest">
+		<column name="id" value="2" />
+			<column name="liquibase_name" value="testing001" />
+			<column name="join_date" value="20171006" />
+		</insert>
+		<rollback/>
+</changeSet>
+<changeSet id="005" author="yenshan2">
+ <addColumn tableName="liquibaseTest">
+   <column name="decription" type="varchar(50)"/>
+  </addColumn>
+</changeSet>
  </databaseChangeLog>
