@@ -44,4 +44,11 @@ http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
    <column name="decription" type="varchar(50)"/>
   </addColumn>
 </changeSet>
+
+<changeSet id="006" author="yenshan">
+ <addColumn tableName="liquibaseTest">
+   <column name="testing" type="varchar(50)"/>
+  </addColumn>
+</changeSet>
+
  </databaseChangeLog>
