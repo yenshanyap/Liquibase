@@ -45,10 +45,5 @@ http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
   </addColumn>
 </changeSet>
 
-<changeSet id="006" author="yenshan">
- <addColumn tableName="liquibaseTest">
-   <column name="testing" type="varchar(50)"/>
-  </addColumn>
-</changeSet>
 
  </databaseChangeLog>
